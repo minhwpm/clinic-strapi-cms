@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_sections_articles",
+  "info": {
+    "displayName": "Article"
+  },
+  "options": {},
+  "attributes": {
+    "articleSummary": {
+      "type": "text"
+    },
+    "articleThumbnail": {
+      "allowedTypes": [
+        "images",
+        "videos"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "articleContent": {
+      "type": "richtext"
+    }
+  }
+}

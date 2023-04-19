@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_sections_partners",
+  "info": {
+    "displayName": "Partners",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "logos": {
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.logos"
+    },
+    "title": {
+      "type": "string"
+    }
+  }
+}

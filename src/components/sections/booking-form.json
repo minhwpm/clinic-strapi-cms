@@ -1,0 +1,33 @@
+{
+  "collectionName": "components_sections_booking_forms",
+  "info": {
+    "name": "Booking form",
+    "displayName": "Booking form",
+    "icon": "at",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "emailPlaceholder": {
+      "type": "string"
+    },
+    "submitButton": {
+      "type": "component",
+      "repeatable": false,
+      "component": "links.button"
+    },
+    "location": {
+      "type": "string"
+    },
+    "media": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

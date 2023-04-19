@@ -1,0 +1,41 @@
+{
+  "collectionName": "components_slices_heroes",
+  "info": {
+    "name": "Hero",
+    "displayName": "Hero",
+    "icon": "heading",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "label": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "picture": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "buttons": {
+      "type": "component",
+      "repeatable": true,
+      "component": "links.button-link"
+    },
+    "styling": {
+      "type": "enumeration",
+      "enum": [
+        "side-by-side",
+        "overlay"
+      ]
+    }
+  }
+}

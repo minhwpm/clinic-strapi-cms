@@ -1,0 +1,71 @@
+{
+  "kind": "collectionType",
+  "collectionName": "booking_form_submissions",
+  "info": {
+    "singularName": "booking-form-submission",
+    "pluralName": "booking-form-submissions",
+    "displayName": "Booking form submission",
+    "name": "booking-form-submission",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "email": {
+      "type": "string",
+      "pluginOptions": {}
+    },
+    "status": {
+      "type": "enumeration",
+      "enum": [
+        "pending",
+        "contacted",
+        "ignored"
+      ],
+      "default": "pending",
+      "pluginOptions": {}
+    },
+    "location": {
+      "type": "string",
+      "pluginOptions": {}
+    },
+    "fullname": {
+      "type": "string",
+      "pluginOptions": {}
+    },
+    "phone": {
+      "type": "string",
+      "pluginOptions": {}
+    },
+    "appointmentDatetime": {
+      "type": "datetime",
+      "pluginOptions": {}
+    },
+    "visitReason": {
+      "type": "string",
+      "pluginOptions": {}
+    },
+    "age": {
+      "type": "decimal",
+      "pluginOptions": {}
+    },
+    "gender": {
+      "type": "enumeration",
+      "enum": [
+        "female",
+        "male",
+        "others"
+      ],
+      "pluginOptions": {}
+    },
+    "expert": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::expert.expert"
+    }
+  }
+}
