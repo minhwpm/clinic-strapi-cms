@@ -13,8 +13,7 @@
     "pg-connection-string": "^2.5.0",
     "strapi-plugin-navigation": "^2.2.7",
     "strapi-plugin-sitemap": "^2.0.9",
-    "strapi-plugin-slugify": "^2.3.2",
-    "strapi-plugin-vercel-deploy": "^1.4.0"
+    "strapi-plugin-slugify": "^2.3.2"
   },
   "name": "backend",
   "private": true,
