@@ -19,7 +19,7 @@
     }
   },
   "attributes": {
-    "shortName": {
+    "title": {
       "type": "string",
       "pluginOptions": {
         "i18n": {
