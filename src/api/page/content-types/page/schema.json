@@ -25,18 +25,17 @@
         "i18n": {
           "localized": true
         }
-      }
+      },
+      "unique": true
     },
-    "metadata": {
-      "type": "component",
-      "repeatable": false,
-      "component": "meta.metadata",
-      "required": true,
+    "slug": {
       "pluginOptions": {
         "i18n": {
           "localized": true
         }
-      }
+      },
+      "type": "uid",
+      "targetField": "title"
     },
     "contentSections": {
       "type": "dynamiczone",
@@ -50,8 +49,7 @@
         "sections.rich-text",
         "sections.pricing",
         "sections.booking-form",
-        "sections.partners",
-        "sections.article"
+        "sections.partners"
       ],
       "pluginOptions": {
         "i18n": {
@@ -59,14 +57,16 @@
         }
       }
     },
-    "slug": {
+    "metadata": {
+      "type": "component",
+      "repeatable": false,
+      "component": "meta.metadata",
+      "required": false,
       "pluginOptions": {
         "i18n": {
-          "localized": false
+          "localized": true
         }
-      },
-      "type": "string",
-      "regex": "^$|^[a-zA-Z/-]+$"
+      }
     }
   }
 }

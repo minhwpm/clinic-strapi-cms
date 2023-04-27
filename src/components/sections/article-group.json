@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_sections_article_groups",
+  "info": {
+    "displayName": "Article group"
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string"
+    },
+    "references": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::page.page"
+    }
+  }
+}

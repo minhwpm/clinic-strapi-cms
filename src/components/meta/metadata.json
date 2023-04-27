@@ -3,25 +3,26 @@
   "info": {
     "name": "Metadata",
     "displayName": "Metadata",
-    "icon": "robot"
+    "icon": "robot",
+    "description": ""
   },
   "options": {},
   "attributes": {
     "metaTitle": {
       "type": "string",
-      "required": true
+      "required": false
     },
     "metaDescription": {
       "type": "text",
-      "required": true
+      "required": false
     },
     "shareImage": {
-      "allowedTypes": [
-        "images"
-      ],
       "type": "media",
       "multiple": false,
-      "required": false
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
     },
     "twitterCardType": {
       "type": "enumeration",
