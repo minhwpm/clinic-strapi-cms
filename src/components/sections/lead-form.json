@@ -1,8 +1,8 @@
 {
-  "collectionName": "components_sections_booking_forms",
+  "collectionName": "components_sections_lead_forms",
   "info": {
-    "name": "Booking form",
-    "displayName": "Booking form",
+    "name": "Lead form",
+    "displayName": "Lead form",
     "icon": "at",
     "description": ""
   },
@@ -23,11 +23,12 @@
       "type": "string"
     },
     "media": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     }
   }
 }

@@ -48,7 +48,7 @@
         "sections.large-video",
         "sections.rich-text",
         "sections.pricing",
-        "sections.booking-form",
+        "sections.lead-form",
         "sections.partners"
       ],
       "pluginOptions": {

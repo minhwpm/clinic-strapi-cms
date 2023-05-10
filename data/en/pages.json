@@ -142,7 +142,7 @@
         },
         {
           "id": 1,
-          "__component": "sections.booking-form",
+          "__component": "sections.lead-form",
           "title": "Subscribe To Our Newsletter",
           "emailPlaceholder": "email@company.com",
           "submitButton": {

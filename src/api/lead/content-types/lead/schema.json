@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "leads",
+  "info": {
+    "singularName": "lead",
+    "pluralName": "leads",
+    "displayName": "Lead",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "fullname": {
+      "type": "string"
+    },
+    "age": {
+      "type": "integer"
+    },
+    "phone": {
+      "type": "string"
+    },
+    "concern": {
+      "type": "string"
+    }
+  }
+}
