@@ -15,10 +15,6 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "email": {
-      "type": "string",
-      "pluginOptions": {}
-    },
     "status": {
       "type": "enumeration",
       "enum": [
@@ -29,23 +25,21 @@
       "default": "pending",
       "pluginOptions": {}
     },
-    "location": {
-      "type": "string",
-      "pluginOptions": {}
+    "expert": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::expert.expert"
     },
-    "fullname": {
-      "type": "string",
-      "pluginOptions": {}
+    "service": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::service.service"
     },
-    "phone": {
-      "type": "string",
-      "pluginOptions": {}
-    },
-    "appointmentDatetime": {
+    "bookingTime": {
       "type": "datetime",
       "pluginOptions": {}
     },
-    "visitReason": {
+    "fullname": {
       "type": "string",
       "pluginOptions": {}
     },
@@ -58,14 +52,44 @@
       "enum": [
         "female",
         "male",
-        "others"
+        "nonbinary"
       ],
       "pluginOptions": {}
     },
-    "expert": {
-      "type": "relation",
-      "relation": "oneToOne",
-      "target": "api::expert.expert"
+    "email": {
+      "type": "string",
+      "pluginOptions": {}
+    },
+    "phone": {
+      "type": "string",
+      "pluginOptions": {}
+    },
+    "concern": {
+      "type": "text",
+      "pluginOptions": {}
+    },
+    "requestorFullname": {
+      "type": "string"
+    },
+    "relationship": {
+      "type": "enumeration",
+      "enum": [
+        "parent",
+        "child",
+        "spouse",
+        "sibling",
+        "others"
+      ]
+    },
+    "requestorEmail": {
+      "type": "string"
+    },
+    "requestorPhone": {
+      "type": "string"
+    },
+    "location": {
+      "type": "string",
+      "pluginOptions": {}
     }
   }
 }
