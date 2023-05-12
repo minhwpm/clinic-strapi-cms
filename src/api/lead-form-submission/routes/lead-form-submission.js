@@ -6,4 +6,4 @@
 
 const { createCoreRouter } = require('@strapi/strapi').factories;
 
-module.exports = createCoreRouter('api::lead.lead');
+module.exports = createCoreRouter('api::lead-form-submission.lead-form-submission');

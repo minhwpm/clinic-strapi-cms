@@ -1,10 +1,10 @@
 {
   "kind": "collectionType",
-  "collectionName": "leads",
+  "collectionName": "lead-form-submissions",
   "info": {
-    "singularName": "lead",
-    "pluralName": "leads",
-    "displayName": "Lead",
+    "singularName": "lead-form-submission",
+    "pluralName": "lead-form-submissions",
+    "displayName": "Lead form submission",
     "description": ""
   },
   "options": {
