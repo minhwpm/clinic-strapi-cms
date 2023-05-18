@@ -63,7 +63,7 @@
     },
     "bookings": {
       "type": "relation",
-      "relation": "oneToOne",
+      "relation": "oneToMany",
       "target": "api::booking-form-submission.booking-form-submission"
     },
     "email": {
