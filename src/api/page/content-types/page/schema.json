@@ -41,15 +41,16 @@
       "type": "dynamiczone",
       "components": [
         "sections.hero",
-        "sections.bottom-actions",
+        "sections.banner-carousel",
+        "sections.partners",
         "sections.feature-columns-group",
         "sections.feature-rows-group",
         "sections.testimonials-group",
+        "sections.bottom-actions",
+        "sections.lead-form",
         "sections.large-video",
         "sections.rich-text",
-        "sections.pricing",
-        "sections.lead-form",
-        "sections.partners"
+        "sections.pricing"
       ],
       "pluginOptions": {
         "i18n": {

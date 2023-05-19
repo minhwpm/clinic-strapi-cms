@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_sections_banner_carousels",
+  "info": {
+    "displayName": "Banner carousel",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "banners": {
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.image"
+    },
+    "hotLinks": {
+      "type": "component",
+      "repeatable": true,
+      "component": "links.link"
+    }
+  }
+}
