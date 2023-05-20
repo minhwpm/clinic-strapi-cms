@@ -8,13 +8,19 @@
   },
   "options": {},
   "attributes": {
+    "title": {
+      "type": "string"
+    },
     "features": {
       "type": "component",
       "repeatable": true,
       "component": "elements.feature-column"
     },
-    "title": {
-      "type": "string"
+    "numberOfColumns": {
+      "default": 4,
+      "max": 6,
+      "min": 3,
+      "type": "integer"
     }
   }
 }
